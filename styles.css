@@ -10,6 +10,7 @@
 body {
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
     background-color: var(--cream-color);
     padding: 75px 14px;
     margin: 0;
@@ -41,9 +42,32 @@ body {
     text-transform: uppercase;
 }
 
-#name {
+#name, #new-price {
     font-family: 'Fraunces', 'Montserrat', serif;
     font-size: 32px;
     font-weight: 700;
     line-height: 100%;
+}
+
+#description {
+    line-height: 160%;
+    color: var(--grey-color);
+}
+
+#prices {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 21px 0;
+}
+
+#new-price {
+    color: var(--green-color1);
+}
+
+#old-price {
+    text-decoration: line-through;
+    font-size: 13px;
+    line-height: 120%;
+    color: var(--grey-color);
 }
