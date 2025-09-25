@@ -71,3 +71,20 @@ body {
     line-height: 120%;
     color: var(--grey-color);
 }
+
+#cart {
+    width: 100%;
+    padding: 16px;
+    font-weight: 700;
+    color: var(--white-color);
+    background-color: var(--green-color1);
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+#cart img {
+    width: 14px;
+}
