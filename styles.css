@@ -88,3 +88,8 @@ body {
 #cart img {
     width: 14px;
 }
+
+#cart:hover {
+    background-color: var(--green-color2);
+    cursor: pointer;
+}
