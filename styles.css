@@ -21,7 +21,7 @@ body {
 #card-container {
     max-width: 400px;
     background-color: var(--white-color);
-    border-radius: 8px;
+    border-radius: 10px;
     overflow: hidden;
 }
 
@@ -50,7 +50,7 @@ body {
 }
 
 #description {
-    line-height: 160%;
+    line-height: 170%;
     color: var(--grey-color);
 }
 
@@ -75,7 +75,7 @@ body {
 
 #cart {
     width: 100%;
-    padding: 17px;
+    padding: 15px;
     font-weight: 700;
     color: var(--white-color);
     background-color: var(--green-color1);
@@ -83,7 +83,7 @@ body {
     border-radius: 8px;
     display: flex;
     justify-content: center;
-    gap: 8px;
+    gap: 10px;
 }
 
 #cart:hover {
@@ -113,6 +113,6 @@ body {
     }
 
     #prices {
-        margin: 30px 0;
+        margin: 29px 0;
     }
 }
