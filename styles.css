@@ -1,0 +1,13 @@
+:root {
+    --green-color1: hsl(158, 36%, 37%);
+    --green-color2: hsl(158, 42%, 18%);
+    --black-color: hsl(212, 21%, 14%);
+    --grey-color: hsl(228, 12%, 48%);
+    --cream-color: hsl(30, 38%, 92%);
+    --white-color: hsl(0, 0%, 100%);
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
