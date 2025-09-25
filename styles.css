@@ -10,4 +10,19 @@
 body {
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
+    background-color: var(--cream-color);
+    padding: 75px 15px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#card-container {
+    max-width: 400px;
+    background-color: var(--white-color);
+    border-radius: 8px;
+}
+
+#card-container img {
+    width: 100%;
 }
